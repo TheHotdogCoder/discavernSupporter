@@ -1,0 +1,229 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 3px 10px rgb(0, 0, 0);
+}
+
+:root {
+    --bg: #7e0c6f;
+}
+
+body {
+    background-color: var(--bg);
+    overflow-x: hidden;
+}
+
+/* Backdrop Images */
+.backdropImg1 {
+    position: fixed;
+    z-index: -10;
+    opacity: 0.5;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+
+    background-color: var(--bg);
+    box-shadow: 0.3em 0.3em 1em rgb(0 0 0 / 60%);
+}
+
+.header img {
+    width: 100px;
+}
+
+.title {
+    margin: 0 auto;
+    vertical-align: middle;
+    font-family: "Jersey 25";
+    font-size: 5em;
+    color: white;
+}
+
+/* Main */
+.desc,
+.feat,
+.support {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 70px 0;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.about,
+.supports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img,
+.supports img {
+    width: 200px;
+    margin: 20px;
+}
+
+.about p,
+.supports p {
+    width: 50ch;
+    text-align: center;
+}
+
+.featScroll {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.featScroll i {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7e0c6f;
+    box-shadow: 0.3em 0.3em 0.3em rgb(0 0 0 / 60%);
+}
+
+.featbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg);
+    border-radius: 20px;
+    box-shadow: 0.3em 0.3em 0.3em rgb(0 0 0 / 60%);
+}
+
+.featbox img {
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.featbox p {
+    width: 40ch;
+    text-align: center;
+    margin: 5px;
+}
+
+.featbox h2 {
+    text-align: center;
+}
+
+.notActive {
+    display: none;
+}
+
+.socLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+i {
+    padding: 0 5px;
+}
+
+a {
+    width: 110px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.3em 0.3em 0.3em rgb(0 0 0 / 60%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.facebook {
+    background-color: #064bac;
+}
+
+.instagram {
+    background: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.tiktok {
+    background-color: black;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    p.title {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 750px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p.title {
+        font-size: 3.5em;
+    }
+
+    .about p,
+    .featboxH p {
+        width: 30ch;
+    }
+}
+
+@media (max-width: 600px) {
+    p.title {
+        font-size: 3em;
+    }
+
+    .header img {
+        width: 50px;
+    }
+
+    .featbox img,
+    .about img,
+    .supports img {
+        width: 150px;
+    }
+
+    .about img {
+        margin: 5px;
+    }
+
+    .about p {
+        width: 35ch;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .featbox {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 465px) {
+    p.title {
+        font-size: 2em;
+    }
+
+    .header img {
+        width: 30px;
+    }
+
+    .featbox p {
+        font-size: 14px;
+        width: 27ch;
+    }
+}
