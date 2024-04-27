@@ -195,6 +195,12 @@ const skins = [
         rarity: 500000
     },
     {
+        name: "HeadLokki",
+        cname: "hl",
+        weight: 10,
+        rarity: 69420
+    },
+    {
         name: "Alpha Lokki",
         cname: "alpha",
         weight: 8,
