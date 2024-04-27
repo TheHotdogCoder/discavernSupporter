@@ -1,0 +1,318 @@
+.notVisible {
+    display: none;
+}
+
+.cooldown {
+    background-color: darkred;
+}
+
+.rare {
+    text-shadow: 1px 1px 25px rgb(2, 73, 127)
+}
+
+.lucky {
+    text-shadow: -2px 2px 20px rgb(221, 158, 11);
+}
+
+.nc {
+    text-shadow: 1px 1px 25px rgb(254, 107, 232)
+}
+
+.tgil {
+    background: linear-gradient(to right, yellow, darkorange);
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.cramming {
+    text-decoration: underline red;
+}
+
+.honors {
+    background: linear-gradient(to right, rgb(164, 101, 0), darkorange);
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+}
+
+.lokkin {
+    background: linear-gradient(to right, rgb(0, 164, 57), rgb(20, 231, 126));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: none;
+}
+
+.sleepy {
+    background: linear-gradient(to right, rgb(204, 0, 255), rgb(20, 154, 231));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.the403rd {
+    background: linear-gradient(to right, rgb(204, 0, 255), rgb(180, 112, 223));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 800;
+    text-shadow: none;
+}
+
+.ikkol {
+    background: linear-gradient(to right, white, rgb(50, 50, 50), white, rgb(50, 50, 50));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 100;
+}
+
+.mega {
+    background: linear-gradient(to right, blue, red);
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 200;
+    text-shadow: none;
+}
+
+.giga {
+    background: linear-gradient(to right, rgb(115, 0, 255), rgb(64, 0, 255));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 400;
+    text-shadow: none;
+}
+
+.tera {
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 238));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.super {
+    background: linear-gradient(to right, rgb(122, 1, 1), rgb(200, 27, 27));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.08);
+    font-weight: 600;
+}
+
+.ultra {
+    background: linear-gradient(to right, rgb(82, 246, 255), rgb(255, 255, 255));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.08);
+    font-weight: 600;
+    text-shadow: none;
+    animation: ultra 400ms infinite ease-out;
+}
+
+@keyframes ultra {
+    0% {
+        background: linear-gradient(to right, rgb(82, 246, 255), rgb(255, 255, 255));
+        background-clip: text;
+        color: rgba(255, 255, 255, 0.08);
+    }
+
+    50% {
+        background: linear-gradient(to right, rgb(255, 255, 255), rgb(82, 246, 255), rgb(255, 255, 255));
+        background-clip: text;
+        color: rgba(255, 255, 255, 0.08);
+    }
+
+    100% {
+        background: linear-gradient(to right, rgb(255, 255, 255), rgb(82, 246, 255));
+        background-clip: text;
+        color: rgba(255, 255, 255, 0.08);
+    }
+}
+
+.tainted {
+    background: linear-gradient(to bottom right, rgb(0, 68, 17), rgb(15, 94, 58));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.08);
+}
+
+.exotic {
+    background: linear-gradient(to bottom right, rgb(7, 114, 34), rgb(56, 147, 106));
+    background-clip: text;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.myth {
+    font-weight: bold;
+    text-shadow: 0px 1px 8px rgba(0, 165, 171, 1);
+    animation: myth 1314ms infinite ease-out;
+}
+
+@keyframes myth {
+    from {
+        text-shadow: 0px 1px 32px rgba(0, 165, 171, 1);
+    }
+
+    to {
+        text-shadow: 0px 0px 3px rgba(18, 172, 255, 0.7);
+    }
+}
+
+.legend {
+    background: linear-gradient(to right, rgb(232, 255, 82), rgb(183, 200, 0));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.08);
+    font-weight: bold;
+    text-shadow: 0px 1px 8px rgb(199, 180, 10);
+    animation: legend 1314ms infinite ease-out;
+}
+
+@keyframes legend {
+    from {
+        text-shadow: 0px 1px 32px rgb(255, 255, 39);
+    }
+
+    to {
+        text-shadow: 0px 0px 3px rgba(255, 183, 0, 0.7);
+    }
+}
+
+
+.heian {
+    background: linear-gradient(to right, rgb(141, 0, 0), rgb(73, 17, 17));
+    background-clip: text;
+    color: rgba(160, 0, 0, 0.2);
+    font-weight: bold;
+    text-shadow: 0px 1px 8px rgb(158, 2, 2);
+    animation: heian 100ms infinite ease-out;
+}
+
+@keyframes heian {
+    from {
+        text-shadow: 2px 2px 1px rgb(255, 255, 255);
+    }
+
+    to {
+        text-shadow: 0px 0px 5px rgba(129, 0, 0, 0.7);
+    }
+}
+
+.gamma {
+    background: linear-gradient(to bottom, rgb(33, 0, 141), rgb(112, 77, 0));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: 200;
+    text-shadow: 0px 1px 8px rgb(158, 2, 2);
+    animation: gamma 100ms infinite ease-out;
+}
+
+@keyframes gamma {
+    from {
+        text-shadow: 2px 2px 1px rgb(126, 92, 0);
+    }
+
+    to {
+        text-shadow: 0px 0px 5px rgba(129, 90, 0, 0.7);
+    }
+}
+
+.beta {
+    background: linear-gradient(to bottom, rgb(93, 163, 195), rgb(13, 0, 255));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+    text-shadow: 0px 1px 8px rgb(49, 0, 105);
+    animation: beta 100ms infinite ease-out;
+}
+
+@keyframes beta {
+    from {
+        text-shadow: 2px 2px 1px rgb(34, 0, 126);
+    }
+
+    to {
+        text-shadow: 0px 0px 5px rgba(93, 8, 110, 0.7);
+    }
+}
+
+.alpha {
+    background: linear-gradient(to bottom, rgb(144, 0, 0), rgb(255, 0, 55));
+    background-clip: text;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+    text-shadow: 0px 1px 8px rgb(105, 0, 82);
+    animation: beta 100ms infinite ease-out;
+}
+
+.sigma {
+    background: linear-gradient(to bottom, rgb(255, 238, 106) rgb(206, 171, 0));
+    background-clip: text;
+    color: rgba(252, 255, 209, 0.3);
+    font-weight: 600;
+    text-shadow: 0px 1px 8px rgb(219, 181, 28);
+    animation: sigma 100ms infinite ease-out;
+}
+
+@keyframes sigma {
+    from {
+        text-shadow: 2px 3px 1px rgb(220, 197, 25);
+    }
+
+    to {
+        text-shadow: 0px 0px 5px rgba(255, 255, 117, 0.7);
+    }
+}
+
+.mischief {
+    background: linear-gradient(to right, rgb(18, 36, 225), rgb(7, 141, 61));
+    background-clip: text;
+    color: rgba(160, 0, 0, 0.2);
+    font-weight: bold;
+    text-shadow: 0px 1px 8px rgb(31, 2, 158);
+    animation: mischief 100ms infinite ease-out;
+}
+
+@keyframes mischief {
+    from {
+        text-shadow: 2px 2px 1px rgb(76, 0, 130);
+    }
+
+    to {
+        text-shadow: 0px 0px 5px rgba(23, 0, 85, 0.7);
+    }
+}
+
+.consumer {
+    background: linear-gradient(to right, rgb(61, 0, 0), rgb(0, 0, 0));
+    background-clip: text;
+    color: rgba(160, 0, 0, 0.2);
+    font-weight: bold;
+    text-shadow: 0px 1px 8px rgb(79, 0, 0);
+    animation: consumer 100ms infinite ease-out;
+}
+
+@keyframes consumer {
+    from {
+        text-shadow: 2px 2px 1px rgb(50, 0, 0);
+    }
+
+    to {
+        text-shadow: 0px 0px 5px rgba(255, 0, 0, 0.7);
+    }
+}
+
+.lokki {
+    background: linear-gradient(to right, rgb(109, 0, 93), rgb(166, 0, 207));
+    background-clip: text;
+    color: rgba(160, 0, 0, 0.2);
+    font-weight: 800;
+    text-shadow: 0px 1px 8px rgb(79, 0, 70);
+    animation: lokki 1000ms infinite ease-out;
+}
+
+@keyframes lokki {
+    from {
+        text-shadow: 0px 0px 1px rgb(152, 0, 179);
+    }
+
+    to {
+        text-shadow: 0px 0px 5px rgba(160, 0, 152, 0.7);
+    }
+}

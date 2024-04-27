@@ -7,6 +7,7 @@
 
 :root {
     --bg: #7e0c6f;
+    --c1: #530348;
 }
 
 body {
@@ -156,6 +157,72 @@ a {
     background-color: black;
 }
 
+.rngRedir {
+    font-size: 15px;
+    padding: 10px 12px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: var(--c1);
+    box-shadow: 0.3em 0.3em 0.3em rgb(0 0 0 / 60%);
+}
+
+.rngAbt {
+    flex-direction: column;
+}
+
+.rngDesc {
+    margin: 20px 0;
+}
+
+.warning {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--bg);
+}
+
+.warning i {
+    color: red;
+    margin-right: 20px;
+}
+
+.rngBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.rngButton {
+    font-size: 19px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: var(--bg);
+    box-shadow: 0.3em 0.3em 0.3em rgb(0 0 0 / 60%);
+}
+
+.rngAnnounce {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.result {
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+}
+
+.rarity {
+    font-size: 13px;
+}
+
+
+/* Media Queries */
+
 @media (max-width: 1000px) {
     h1 {
         font-size: 3em;
@@ -226,4 +293,8 @@ a {
         font-size: 14px;
         width: 27ch;
     }
+    .rngAbt p {
+        width: 25ch;
+    }
+
 }
