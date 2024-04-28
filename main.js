@@ -267,12 +267,12 @@ function getCookie(cname) {
 function loadSave() {
     let currSave = getCookie('saveStr')
     let arraySave = currSave.split("|")
-    persist = arraySave
     arraySave.forEach((l, index) => {
         if (l == 1) {
             document.querySelector("#" + skins[index].cname).innerHTML = skins[index].name
             document.querySelector("#" + skins[index].cname).classList.add(skins[index].cname)
         }
+        persist[index] = Number(l)
     })
 }
 
