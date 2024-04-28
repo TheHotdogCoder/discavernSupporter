@@ -306,7 +306,7 @@ function rngLokki() {
 
 function saveCookie() {
     var save = persist.join("|")
-    document.cookie = "saveStr=" + save + ";"
+    document.cookie = "saveStr=" + save + "; max-age=2419200"
 }
 
 function tallyTotalWeight() {
