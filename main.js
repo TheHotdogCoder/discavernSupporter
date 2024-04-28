@@ -218,7 +218,7 @@ const skins = [
     }
 ];
 
-let persist = [
+persist = [
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 ]
 
@@ -273,6 +273,7 @@ function loadSave() {
             document.querySelector("#" + skins[index].cname).classList.add(skins[index].cname)
         }
     })
+    persist = arraySave
 }
 
 function rngLokki() {
