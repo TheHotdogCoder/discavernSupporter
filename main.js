@@ -267,6 +267,7 @@ function getCookie(cname) {
 function loadSave() {
     let currSave = getCookie('saveStr')
     let arraySave = currSave.split("|")
+    persist = arraySave
     arraySave.forEach((l, index) => {
         if (l == 1) {
             document.querySelector("#" + skins[index].cname).innerHTML = skins[index].name
